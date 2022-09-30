@@ -22,6 +22,11 @@ class Scoreboard(Turtle):
     def game_over(self):
         self.goto(0,0)
         self.write("GAME OVER",align="center",font=("Arial",24,"normal"))
+        self.save_score()
+
+    def save_score(self):
+        with open("scores.text", mode="a") as file:
+            file.write(f"\nYour score was {self.score}")
 
 
     
