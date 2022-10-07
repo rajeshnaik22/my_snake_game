@@ -1,2 +1,10 @@
 Had problem, using Turtle, Tkinter: "Python may not be configured for Tk"
 Fixed by, install Tkinter brew install python-tk and then using latest pythen interpreter 3.10.6`
+
+Pandas - for CSV file
+pip3 install pandas
+
+
+Project contains multiple modules, each divided in folder.
+So in VSCode, open the module main file and run just that file, it will run just that part.
+
