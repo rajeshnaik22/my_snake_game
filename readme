@@ -8,3 +8,8 @@ pip3 install pandas
 Project contains multiple modules, each divided in folder.
 So in VSCode, open the module main file and run just that file, it will run just that part.
 
+Canvas documentation
+https://tkdocs.com/tutorial/canvas.html
+https://tkdocs.com/tutorial/widgets.html#entry
+
+To copy text to clipboard, using pyperclip project pip3 install pyperclip
